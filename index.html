@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing Page Sederhana</title>
+  <meta name="description" content="Contoh landing page responsif menggunakan HTML & CSS murni." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <span>BrandKamu</span>
+      </div>
+      <nav>
+        <a href="#fitur">Fitur</a>
+        <a href="#harga">Harga</a>
+        <a href="#kontak" class="cta">Coba Gratis</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="pill">🚀 Siap meluncur</span>
+        <h1>Bangun website modern hanya dengan <em>HTML & CSS</em>.</h1>
+        <p>Contoh landing page responsif yang rapi, mudah diubah, dan bebas JavaScript. Cocok untuk portofolio, proyek sekolah, atau ide startup pertama kamu.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#harga">Lihat Paket</a>
+          <a class="btn" href="#fitur">Lihat Fitur</a>
+        </div>
+        <div class="badges" style="margin-top:18px">
+          <span class="pill">⚡ Cepat Dimuat</span>
+          <span class="pill">🔒 Aksesibilitas Dasar</span>
+          <span class="pill">📱 100% Responsif</span>
+        </div>
+      </div>
+      <div>
+        <div class="device" role="img" aria-label="Pratinjau UI">
+          <div class="screen">
+            <div class="card">
+              <div class="chip" aria-hidden="true"></div>
+              <strong>Analytics</strong>
+              <p class="muted" style="margin:0">Pantau performa kamu tanpa ribet.</p>
+            </div>
+            <div class="card">
+              <div class="row" style="align-items:center">
+                <div class="chip" style="width:24px;height:24px;border-radius:6px"></div>
+                <strong>Status: Stabil</strong>
+              </div>
+              <div class="row">
+                <span class="pill">99.9% Uptime</span>
+                <span class="pill">CDN</span>
+                <span class="pill">SSL</span>
+              </div>
+            </div>
+            <div class="card">
+              <strong>Konversi</strong>
+              <p class="muted" style="margin:0">Naikkan interaksi dengan desain elegan.</p>
+            </div>
+            <div class="card">
+              <strong>Integrasi</strong>
+              <p class="muted" style="margin:0">Mudah dihubungkan ke layanan lain.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="fitur" class="section">
+    <div class="container">
+      <h2>Fitur Unggulan</h2>
+      <p class="lead">Komponen siap pakai untuk mulai cepat. Edit teksnya sesuai kebutuhan.</p>
+      <div class="features">
+        <article class="feature">
+          <span class="pill">UI</span>
+          <h3>Kartu & Grid</h3>
+          <p>Layout grid fleksibel dengan kartu yang elegan untuk menampilkan konten.</p>
+        </article>
+        <article class="feature">
+          <span class="pill">Style</span>
+          <h3>Variabel CSS</h3>
+          <p>Ganti tema hanya dengan mengubah <code>:root</code> warna.</p>
+        </article>
+        <article class="feature">
+          <span class="pill">A11y</span>
+          <h3>Aksesibilitas</h3>
+          <p>Kontras tinggi, fokus jelas, dan semantik HTML yang lebih baik.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="harga" class="section">
+    <div class="container">
+      <h2>Harga yang Jujur</h2>
+      <p class="lead">Mulai gratis. Upgrade kapan pun kamu butuh fitur ekstra.</p>
+      <div class="pricing">
+        <div class="plan">
+          <div class="pill">Pemula</div>
+          <div class="price">Rp0<span class="muted" style="font-size:.9rem">/selamanya</span></div>
+          <ul class="bullets">
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> Hosting statis</li>
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> SSL gratis</li>
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> Bandwidth 1GB</li>
+          </ul>
+          <a class="btn" href="#">Pilih Paket</a>
+        </div>
+        <div class="plan" style="outline: 2px solid #2f3566;">
+          <div class="pill">Pro ✨</div>
+          <div class="price">Rp49k<span class="muted" style="font-size:.9rem">/bulan</span></div>
+          <ul class="bullets">
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> Domain kustom</li>
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> Bandwidth 200GB</li>
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> Dukungan prioritas</li>
+          </ul>
+          <a class="btn primary" href="#">Mulai Pro</a>
+        </div>
+        <div class="plan">
+          <div class="pill">Tim</div>
+          <div class="price">Rp149k<span class="muted" style="font-size:.9rem">/bulan</span></div>
+          <ul class="bullets">
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> 5 anggota tim</li>
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> Akses kontrol</li>
+            <li class="bullet"><span class="dot" aria-hidden="true"></span> Audit log</li>
+          </ul>
+          <a class="btn" href="#">Hubungi Kami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="kontak" class="section">
+    <div class="container contact">
+      <div class="card-glow">
+        <h2>Hubungi Kami</h2>
+        <p class="muted">Ada pertanyaan atau butuh bantuan? Kirim pesanmu di bawah.</p>
+        <form action="#" method="post" class="form">
+          <div class="row">
+            <div style="flex:1; min-width:200px">
+              <label for="nama">Nama</label>
+              <input id="nama" name="nama" placeholder="Nama lengkap" required />
+            </div>
+            <div style="flex:1; min-width:200px">
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="nama@email.com" required />
+            </div>
+          </div>
+          <div style="margin-top:12px">
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan" placeholder="Tulis pesanmu di sini..."></textarea>
+          </div>
+          <div style="margin-top:16px">
+            <button class="btn primary" type="submit">Kirim</button>
+          </div>
+        </form>
+      </div>
+      <div class="card-glow">
+        <h3>Kenapa pilih template ini?</h3>
+        <ul class="bullets">
+          <li class="bullet"><span class="dot"></span> Cepat di-setup</li>
+          <li class="bullet"><span class="dot"></span> Mudah dimodifikasi</li>
+          <li class="bullet"><span class="dot" style="background: var(--warn); box-shadow: 0 0 0 3px #f59e0b22"></span> Tanpa JavaScript</li>
+        </ul>
+        <div class="badges" style="margin-top:14px">
+          <span class="pill">💡 Tips: ubah warna di <code>:root</code></span>
+          <span class="pill">🧱 Komponen reusable</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row" style="justify-content: space-between; align-items:center;">
+        <small>© <span id="y"></span> BrandKamu. Dibuat dengan ❤️ pakai HTML & CSS.</small>
+        <div class="badges">
+          <span class="pill">Made for belajar</span>
+          <span class="pill">Open Source</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
